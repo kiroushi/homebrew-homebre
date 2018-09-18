@@ -2,7 +2,7 @@ cask 'teamviewer-host' do
   version '13'
   sha256 :no_check # required as upstream package is updated in-place
 
-  url "https://download.teamviewer.com/download/version_13x/CustomDesign/Install TeamViewerHost-idcgfznjjp.pkg"
+  url "https://download.teamviewer.com/download/version_13x/CustomDesign/Install%20TeamViewerHost-idcgfznjjp.pkg"
   name 'TeamViewer Host TRICHODEX'
   homepage 'https://www.trichodex.com'
 
