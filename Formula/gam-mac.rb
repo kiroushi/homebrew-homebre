@@ -7,12 +7,13 @@ class GamMac < Formula
 
   def install
     prefix.install Dir["*"]
-    prefix.install "/Users/#{ENV["USER"]}/Library/Mobile Documents/com~apple~CloudDocs/TRICHODEX/GAM/oauth2.txt"
-    
+
     prefix.install_symlink "/Users/#{ENV["USER"]}/Library/Mobile Documents/com~apple~CloudDocs/TRICHODEX/GAM/client_secrets.json" => "client_secrets.json"
     prefix.install_symlink "/Users/#{ENV["USER"]}/Library/Mobile Documents/com~apple~CloudDocs/TRICHODEX/GAM/oauth2service.json" => "oauth2service.json"
 
     bin.install_symlink prefix/"gam" => "gam"
+    
+    prefix.install "/Users/#{ENV["USER"]}/Library/Mobile Documents/com~apple~CloudDocs/TRICHODEX/GAM/oauth2.txt"
   end
 
   test do
