@@ -14,6 +14,6 @@ class GamMac < Formula
   end
 
   test do
-    system "#{bin}/gam | grep 'GAM 4.40'"
+    system "#{bin}/gam | grep 'GAM #{version}'"
   end
 end
