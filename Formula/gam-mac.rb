@@ -13,7 +13,7 @@ class GamMac < Formula
 
     bin.install_symlink prefix/"gam" => "gam"
     
-    prefix.install "/Users/#{ENV["USER"]}/Library/Mobile Documents/com~apple~CloudDocs/TRICHODEX/GAM/oauth2.txt"
+    cp "/Users/#{ENV["USER"]}/Library/Mobile Documents/com~apple~CloudDocs/TRICHODEX/GAM/oauth2.txt" "#{prefix}"
   end
 
   test do
