@@ -2,7 +2,7 @@ class GamMac < Formula
   homepage "https://github.com/jay0lee/GAM"
   version "4.61"
   url "https://github.com/jay0lee/GAM/releases/download/v#{version}/gam-4.61-macos.tar.xz"
-  sha256 "0a17ff514d6351dda570202d9a1a3bbd2d95baceece8f5671e6a2be7ced9a468"
+  sha256 "1c11e35d68f34715b96493f7d2e39bb9be04441bc6f64b9c8d188a4e9e1a8cd2"
   head "https://github.com/jay0lee/GAM.git"
 
   def install
