@@ -10,7 +10,7 @@ class GamMac < Formula
     prefix.install_symlink "/Users/#{ENV["USER"]}/Library/Mobile Documents/com~apple~CloudDocs/TRICHODEX/GAM/client_secrets.json" => "client_secrets.json"
     prefix.install_symlink "/Users/#{ENV["USER"]}/Library/Mobile Documents/com~apple~CloudDocs/TRICHODEX/GAM/oauth2service.json" => "oauth2service.json"
     prefix.install_symlink "/Users/#{ENV["USER"]}/Library/Mobile Documents/com~apple~CloudDocs/TRICHODEX/GAM/oauth2.txt" => "oauth2.txt"
-    bin.install_symlink prefix/"src/gam.py" => "gam"
+    bin.install_symlink prefix/"gam" => "gam"
   end
 
   test do
